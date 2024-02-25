@@ -1,4 +1,7 @@
 /* font & color styling */
+body {
+    font-family: 'Roboto';
+}
 /* hero & footer */
 .hero,
 .footer {
@@ -11,12 +14,20 @@ h1 {
     color: #f9faf8;
 }
 
-h2 {
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo {
     font-size: 24px;
     color: #f9faf8;
 }
 
-ul,
+a,
 .hero-text {
     font-size: 18px;
     color: #e5e7eb;
@@ -31,7 +42,9 @@ ul,
 
 /* button & call to action section */
 button {
-    color: #3882f6;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 800;
 }
 
 .call-to-action-section {
@@ -49,4 +62,17 @@ button {
     color: #1f2937;
 }
 
+.quote-author {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.call-to-action {
+    color: #e5e7eb;
+}
+
+.footer {
+    font-size: 20px;
+    color: #e5e7eb;
+}
 /* alignment */
