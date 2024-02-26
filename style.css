@@ -61,7 +61,7 @@ button {
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
+    color: #404d5f;
 }
 
 .quote-author {
@@ -160,5 +160,22 @@ ul {
     width: 170px;
     text-align: center;
     text-wrap: wrap;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 130px 0px;
+    gap: 10px;  
+}
+
+.quote-text {
+    width: 810px;
+}
+
+.quote-author {
+    margin-left: 550px;
 }
 
