@@ -197,3 +197,10 @@ ul {
     padding: 7px 30px;
     border-radius: 10px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
