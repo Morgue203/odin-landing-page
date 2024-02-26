@@ -1,6 +1,8 @@
 /* font & color styling */
 body {
     font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
 }
 /* hero & footer */
 .hero,
@@ -76,3 +78,61 @@ button {
     color: #e5e7eb;
 }
 /* alignment */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+}
+
+.placeholder-img {
+    width: 600px;
+    height: 295px;
+}
+
+.hero-section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 100px;
+    padding: 130px;
+}
+
+.hero-text {
+    max-width: 450px;
+    word-wrap: normal;
+}
+
+.hero-text button {
+    padding: 7px 25px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.information-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
