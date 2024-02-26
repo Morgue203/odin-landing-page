@@ -179,3 +179,21 @@ ul {
     margin-left: 550px;
 }
 
+.call-to-action {
+    padding: 80px 200px;
+}
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+
+.call-to-action-section button {
+    border: 1px solid white;
+    padding: 7px 30px;
+    border-radius: 10px;
+}
